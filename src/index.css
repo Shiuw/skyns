@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'quicksandlight';
+  
+  src: url('C:\Users\rmant\Desktop\ebebebebee\shiuw-skyn\quicksandnd\quicksand-variablefont_wght-webfont.woff') format('woff'),
+       url('C:\Users\rmant\Desktop\ebebebebee\shiuw-skyn\quicksandnd\quicksand-variablefont_wght-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body {
+
+  margin: 0;
+  font-family: 'quicksandlight', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243,243,243);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,38 @@
+{
+    "skins": 
+    [
+        {
+            "id": 1,
+            "name": "rafis dt editMIAUMIAUMIAU",
+            "ver": "",
+            "download": "https://monkosite.s3.us-west-2.amazonaws.com/Monko2kSkin.osk",
+            "preview": "./public/preview/skin1.png",
+            "comment": "2015"
+        },
+        {
+            "id": 2,
+            "name": "meow",
+            "ver": "",
+            "download": "https://i.kym-cdn.com/entries/icons/facebook/000/040/192/jinxthecat.jpg",
+            "preview": "https://i.kym-cdn.com/entries/icons/facebook/000/040/192/jinxthecat.jpg",
+            "comment": "2015"
+        },
+        {
+            "id": 3,
+            "name": "miau",
+            "ver": "",
+            "download": "https://i.kym-cdn.com/entries/icons/facebook/000/040/192/jinxthecat.jpg",
+            "preview": "https://i.kym-cdn.com/entries/icons/facebook/000/040/192/jinxthecat.jpg",
+            "comment": "2015"
+        },
+        {
+            "id": 4,
+            "name": "miau",
+            "ver": "",
+            "download": "https://i.kym-cdn.com/entries/icons/facebook/000/040/192/jinxthecat.jpg",
+            "preview": "https://i.kym-cdn.com/entries/icons/facebook/000/040/192/jinxthecat.jpg",
+            "comment": "2015"
+        }
+    
+    ]
+}
