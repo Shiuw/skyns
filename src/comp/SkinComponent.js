@@ -10,7 +10,7 @@ function SkinComponent(props) {
             onClick={() => window.open(props.data.download, "_self")}
             >
             <div className="SkinHeader"> 
-                <div className="SkinName">{props.data.name}</div>v>
+                <div className="SkinName">{props.data.name}</div>
             </div>
 
             <img 
