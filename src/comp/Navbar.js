@@ -1,25 +1,27 @@
-import "./style/SkinComponent.css"
-/*
-                <div className="SkinVersion">{props.data.ver}</div>
-                <div className="SkinYear">{props.data.year}</div>
-*/
-function SkinComponent(props) {
-    return (
-        <div 
-            className="SkinComponent" 
-            onClick={() => window.open(props.data.download, "_self")}
-            >
-            <div className="SkinHeader">
-                <div className="SkinName">{props.data.name}</div>
-            </div>
+import { Link, useLocation } from "react-router-dom";
 
-            <img 
-                className="SkinPreview" 
-                src={`/preview/skin${props.data.id}.png`}
-                alt={props.data.name}
-                /> 
+import "./style/Navbar.css"
+function Home() {
+    return (useLocation().pathname === "/" ? 
+        <Link to="/" className="NavbarBadge" onClick={ (event) =>event.preventDefault()}>meow</Link> :
+        <Link to="/" className="NavbarBadge">meow</Link>
+    );
+}
+function Skins() {
+    return (useLocation().pathname === "/skins" ? 
+        <Link to="/skins" className="NavbarButton" onClick={ (event) =>event.preventDefault()}>Skins</Link> :
+        <Link to="/skins" className="NavbarButton">Skins</Link>
+    );
+}
+function Navbar() {
+    return (
+        <div className="Navbar">
+            <div className="NavbarContainer">
+                <Home />
+                <Skins />
+            </div>
         </div>
     )
 }
 
-export default SkinComponent;
+export default Navbar;

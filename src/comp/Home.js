@@ -5,7 +5,7 @@ import kitty from "./dep/img/kitty.jpg"
 function Home() {
    return (
        <div className="Home">
-            <a href="https://twitter.com/shiuwasi%22%3E">
+            <a href="https://twitter.com/shiuwasi">
                     <img class="imagery" src={kitty} alt="Twitter"/>
                 </a>
            <div classname ="Home">
