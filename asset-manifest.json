@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/skyns/static/css/main.dafb7045.css",
-    "main.js": "/skyns/static/js/main.8c784cdb.js",
-    "static/js/787.1acba5d8.chunk.js": "/skyns/static/js/787.1acba5d8.chunk.js",
+    "main.js": "/skyns/static/js/main.47592a53.js",
+    "static/js/787.9888bf02.chunk.js": "/skyns/static/js/787.9888bf02.chunk.js",
     "static/media/kitty.jpg": "/skyns/static/media/kitty.6286ea32630bcf235656.jpg",
     "static/media/quicksand-variablefont_wght-webfont.woff": "/skyns/static/media/quicksand-variablefont_wght-webfont.02763e908595fc1824f8.woff",
     "static/media/quicksand-variablefont_wght-webfont.woff2": "/skyns/static/media/quicksand-variablefont_wght-webfont.350055586599d266bf54.woff2",
     "static/media/logo.svg": "/skyns/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/skyns/index.html",
     "main.dafb7045.css.map": "/skyns/static/css/main.dafb7045.css.map",
-    "main.8c784cdb.js.map": "/skyns/static/js/main.8c784cdb.js.map",
-    "787.1acba5d8.chunk.js.map": "/skyns/static/js/787.1acba5d8.chunk.js.map"
+    "main.47592a53.js.map": "/skyns/static/js/main.47592a53.js.map",
+    "787.9888bf02.chunk.js.map": "/skyns/static/js/787.9888bf02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dafb7045.css",
-    "static/js/main.8c784cdb.js"
+    "static/js/main.47592a53.js"
   ]
 }
