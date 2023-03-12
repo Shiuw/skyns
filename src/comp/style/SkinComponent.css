@@ -10,9 +10,9 @@ filter: drop-shadow(0px 0px 10px rgb(255,255,255, 0.4));
     width: 440px;
     height: 300px;
     /*background-color: #060606;*/
-    background: white;
+    background: black;
     border-radius: 8px;
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 1px 2px #B294F0;
     transition: filter 0.3s;
     transition: 0.15s;
 }
@@ -27,16 +27,16 @@ filter: drop-shadow(0px 0px 10px rgb(255,255,255, 0.4));
     margin-right: 20px;
 }
 .SkinComponent:hover {
-    box-shadow: 0px 0px 2px 3px pink;
+    box-shadow: 0px 0px 6px 4px #EB69FA;
     cursor: pointer;
-    background-color: rgb(255, 242, 245);
+    background-color: rgb(38, 0, 43);
 }
 .SkinHeader {
     position: relative; 
     height: 45px;
 }
 .SkinName {
-    color: black;
+    color: #cebbf3;
     padding-top: 12px;
     font-weight: bold;
     font-size: 20px;

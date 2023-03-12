@@ -1,12 +1,12 @@
 .Navbar {
     width: 96vw;
-    background-color:pink;
+    background-color:#7350b8;
     padding-left: 2vw;
     padding-right: 2vw;
     height: 70px;
     display: flex;
     color: #b1878e;
-    color: black;/*hsl(0, 0%, 67%);*/
+    color: white;/*hsl(0, 0%, 67%);*/
     align-items:flex-end;
     justify-content:center;
     font-weight: bold;
@@ -19,7 +19,7 @@
 .NavbarBadge {
     font-weight: bold;
     font-size: 30px;
-    color: black;   
+    color: white;   
     padding-right: 10px;
     text-align: center;
     vertical-align: middle;
@@ -40,12 +40,14 @@
     line-height: 75px;
 }
 .NavbarButton:hover {
-    color: #a14c5a;
+    color: white;
+    text-shadow: 0 0 1px #BE9EFF, 0 0 2px #BE9EFF, 0 0 3px #BE9EFF, 0 0 4px #BE9EFF, 0 0 5px #BE9EFF, 0 0 6px #BE9EFF, 0 0 7px #BE9EFF;
     cursor: pointer;
     
 }
 .NavbarBadge:hover{
-    color: #a14c5a;
+    color: white;
+    text-shadow: 0 0 1px #BE9EFF, 0 0 2px #BE9EFF, 0 0 3px #BE9EFF, 0 0 4px #BE9EFF, 0 0 5px #BE9EFF, 0 0 6px #BE9EFF, 0 0 7px #BE9EFF;
     cursor: pointer;
 }
 a {
